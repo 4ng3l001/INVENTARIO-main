@@ -2,7 +2,7 @@
 	
 	# Conexion a la base de datos #
 	function conexion(){
-		$pdo = new PDO('mysql:host=localhost;dbname=pdo', 'root', '');
+		$pdo = new PDO('mysql:host=bah3csecqttxasw0cq0v-mysql.services.clever-cloud.com;dbname=bah3csecqttxasw0cq0v', 'uvuc043hlwmoa2wj', '0f5OjGvRxFTAlS0WQZdz');
 		return $pdo;
 	}
 
